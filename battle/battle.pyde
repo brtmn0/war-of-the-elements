@@ -22,8 +22,13 @@ def setup():
     image(Img3, 820, 200, 200, 300)
     image(Img4, 1020, 200, 200, 300)
     image(vsimg, 960, 540)
-
-
+    textSize(18)
+    fill(0,0,0)
+    text("Left click on the bottom cards for player 1, left click on the top cards for player 2. press right click and the winning card will be desplayed", 0, 18)
+    text("player 2", 232, 200)
+    text("player 1", 232, 900)
+    textSize(30)
+    text("winning card", 1600, 200)
 def draw():
     frameRate(60)
     
